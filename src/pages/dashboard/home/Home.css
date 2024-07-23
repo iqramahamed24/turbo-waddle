@@ -1,0 +1,104 @@
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #16599c;
+}
+
+.centered-form {
+  width: 400px; 
+}
+
+.login-form {
+  border: 1px solid #cea3a3; 
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #aabaca;
+}
+
+.btn-primary {
+  background-color: transparent !important;
+  color: #0b65da !important;
+  border-color: #5e7c9b !important;
+}
+
+.btn-primary:hover {
+  background-color: #007bff !important;
+  color: #836868 !important;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: none !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #082b52 !important;
+  border-color: #0056b3 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+/* Custom styles for the Toastify container */
+.Toastify__toast-container {
+  font-family: Arial, sans-serif;
+  font-size: 12px; /* Smaller font size */
+  /* Adjust the width of the toast container if needed */
+  width: auto; /* You can specify a max-width if required */
+}
+
+/* Custom styles for success toast */
+.Toastify__toast--success {
+  background-color: #28a745; /* Green background for success */
+  color: white;
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Smaller padding */
+  font-size: 14px; /* Adjust font size for smaller toast */
+}
+
+/* Custom styles for error toast */
+.Toastify__toast--error {
+  background-color: #dc3545; /* Red background for error */
+  color: white;
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Smaller padding */
+  font-size: 14px; /* Adjust font size for smaller toast */
+}
+
+/* Custom styles for info toast */
+.Toastify__toast--info {
+  background-color: #17a2b8; /* Blue background for info */
+  color: white;
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Smaller padding */
+  font-size: 14px; /* Adjust font size for smaller toast */
+}
+
+/* Custom styles for warning toast */
+.Toastify__toast--warning {
+  background-color: #ffc107; /* Yellow background for warning */
+  color: black;
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Smaller padding */
+  font-size: 14px; /* Adjust font size for smaller toast */
+}
+
+/* Custom style for toast close button */
+.Toastify__toast-button {
+  color: white;
+  font-size: 14px; /* Smaller close button font size */
+  margin-left: 8px; /* Space between text and close button */
+}
+
+/* Optional: Adjust the position of the Toast container */
+.Toastify__toast-container--top-right {
+  top: 16px; /* Distance from the top of the viewport */
+  right: 16px; /* Distance from the right of the viewport */
+}
+

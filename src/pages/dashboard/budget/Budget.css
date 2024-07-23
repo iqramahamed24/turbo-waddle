@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav {
+  text-align: center;
+  background-color: #26578b;
+  padding: 10px 0;
+}
+
+.Nav h1 {
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.budget-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.budget-table th,
+.budget-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.budget-table th {
+  background-color: #194370;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.budget-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.budget-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+.form-input {
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+.add-budget-sec {
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px; 
+  max-width: 500px; 
+  margin: 0 auto;
+}
+
+.add-budget-sec form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+
+.add-budget-sec input {
+  border: 1px solid #dcdcdc; 
+  border-radius: 4px; 
+  padding: 10px; 
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-budget-sec input[type="date"] {
+  padding: 8px; 
+}
+
+.add-budget-sec button {
+  background-color: #007bff; 
+  color: white; 
+  border: none;
+  border-radius: 4px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+
+.add-budget-sec button:hover {
+  background-color: #0056b3; 
+}
